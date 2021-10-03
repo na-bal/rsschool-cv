@@ -1,0 +1,52 @@
+header {
+    margin-top: 4rem;
+}
+
+footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color:coral;
+}
+
+
+.myFace {
+    max-width: 250px;
+    border-radius: 200px;
+    border: rgba(1, 1, 1, 1) solid 1px;
+
+}
+
+h1 {
+    margin-top: 2rem !important;
+}
+
+.divider {
+    margin-top: 1.5rem;
+    width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.skillBlock {
+    background-color:coral;
+    border-radius: 20px;
+    max-width: 250px;
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+    margin-left: -180px;
+}
+
+.codeBlock {
+    background-color:rgb(221, 220, 219);
+    border: black solid 2px;
+    box-shadow: -5px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.logo {
+    max-width: 100px;
+}
