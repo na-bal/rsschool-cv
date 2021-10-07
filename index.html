@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <title>Alexander Bedelev – CV</title>
+</head>
+<body>
+    <header class="container">
+        <div class="row">
+            <div class="col-5">
+                <h1>Alexander Bedelev</h1>
+                <h2>Product Manager</h2>
+                <span> E-mail: <a href="mailto:alexander.bedelev@gmail.com">alexander.bedelev@gmail.com</a> </span>
+                <br>
+                <span> GitHub: <a href="https://github.com/na-bal">na-bal</a></span>
+                <br>
+                <span> Telegram: <a href="https://t.me/ohio_blue-Tip">@Ohio_blue-Tip</a></span>
+            </div>
+            <div class="col-3">
+                <figure>
+                    <img class="myFace" src="./src/myFace.jpg" alt="My Face">
+                    <!-- <figcaption> This is my face </figcaption> -->
+                </figure>
+            </div>
+            
+        </div>
+        
+        
+    </header>
+
+    <div class="divider"></div>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h1>About me</h1>
+                        <p>
+                            I'm Product Manager in engineering education now. I coordinate the work of engineering teams, develop the <a href="https://nti-lesson.ru">NTO Lesson</a>. This year I started programming. First I mastered Python, wrote a <a href="https://github.com/na-bal/pip-result">program</a> that solves my real work tasks. Now I am studying html, css, js.
+                        </p>
+                        <p>
+                            <b>My goal</b> is to develop further in product management, to create useful and most convenient products.
+                        </p>
+                    </div>
+                    <div class="col-4 offset-1">
+                        <h2>Skills</h2>
+                        <div class="row skillBlock">
+                            <p>Product management</p>
+                        </div>
+                        <div class="row skillBlock">
+                            <p>Team lead</p>
+                        </div>
+                        <div class="row skillBlock">
+                            <p>Python</p>
+                        </div>
+                        <div class="row skillBlock">
+                            <p>HTML, CSS, JS (+React)</p>
+                        </div>
+                        <div class="row skillBlock">
+                            <p>Adobe >> PS, AI, AE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <h1>Code examples</h1>
+                </div>
+                <div class="row">
+                    <div class="col-5 codeBlock">
+                        <pre class="code">
+                        function duplicateCount(text){
+                            const arr = text.toLowerCase(),
+                                  obj = {};
+                                  console.log(arr);
+                        
+                            let res = 0;
+                        
+                            for (const i of arr) {
+                                if (i in obj) {
+                                    obj[i] = obj[i] + 1; 
+                                } else {
+                                    obj[i] = 1
+                                }
+                            }
+                        
+                            for (const key in obj) {
+                                if (obj[key] > 1) {
+                                    res++;
+                                }
+                            }
+                        
+                            return res;
+                          }
+                        </pre>
+                    </div>
+                </div>
+                <div class="row"></div>
+                <div class="row"></div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1>
+                            Education
+                        </h1>
+                        <ul>
+                            <li>Master of Psychology</li>
+                            <li>PhD student in Philosophy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1>Experience</h1>
+                        <ul>
+                            <li> &gt; 2019 - now &lt; Product manager</li>
+                            <li> &gt; 2018 - 2019 &lt; Coordinator of the development of specialized Olympiads</li>
+                            <li> &gt; 2017 - 2018 &lt; Consultant for educational programs</li>
+                            <li> &gt; 2017 - 2017 &lt; Assistant manager</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1>Languages</h1>
+                        <ul>
+                            <li>Russian > native</li>
+                            <li>English > upper</li>
+                            <li>Latin > pre</li>
+                            <li>Ancient Greek > pre</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <figure>
+                            <a href="https://rs.school/js/"> <img class="logo" src="./src/footer-icon-rsschool.svg" alt="rss"></a>
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure>
+                            <a href="https://github.com/na-bal"> <img class="logo" src="./src/GitHub-Mark-120px-plus.png" alt="rss"></a>
+                        </figure>
+                    </div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-6">Alexander. 2021</div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+</body>
+</html>
